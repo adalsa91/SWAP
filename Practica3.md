@@ -21,7 +21,7 @@ Añadimos los repositorios al archivo **/etc/apt/source.list**.
 
 Actualizamos el indice de paquetes e instalamos el paquete **nginx**.
 
-``` bash
+``` shell
 sudo apt-get update
 sudo apt-get install nginx
 ```
