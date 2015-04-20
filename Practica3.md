@@ -225,7 +225,7 @@ La última directiva que estableceremos en esta sección será **srvtimeout** qu
 
 La siguiente sección que configuramos será **frontend http-in**, las secciones frontend describe un conjunto de sockets a la escucha de conexiones de clientes.
 
-Para definir el puerto de escucha para este puerto se debe usar la directiva **bind <address>\:port_range**.  
+Para definir el puerto de escucha para este puerto se debe usar la directiva **bind \<address\>:port_range**.  
     bind \*:80
 
 Para especificar los servidores del backend a los que les reenviaremos las peticiones usamos la directiva **default_backend**
@@ -234,7 +234,7 @@ Para especificar los servidores del backend a los que les reenviaremos las petic
 
 Por último definiremos la sección **backend** que nos permite especificar un conjunto de servidores a los que el proxy se conectara para reenviar las conexiones entrantes.
 
-Para declarar un servidor en el backend se usa la directiva **server <name> <address>\:port param**.
+Para declarar un servidor en el backend se usa la directiva **server \<name\> \<address\>:port param**.
 
     server m1 172.16.97.130:80 maxconn 32
     server m2 172.16.97.129:80 maxconn 32
