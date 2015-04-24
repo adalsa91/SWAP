@@ -7,8 +7,11 @@ Indice
 * [Servidor web nginx](#servidor-web-nginx)
 * [Balanceo de carga con HAProxy](#balanceo-de-carga-con-haproxy)
 * [Bibliografía](#bibliografía)
+  
 
-
+-----------------------------------------------------------
+  
+    
 Objetivos
 ---------
 En esta práctica se configurara una red entre varias máquinas configurando un balanceador de carga que reparta la carga del tráfico http entre varios servidores finales Apache.
