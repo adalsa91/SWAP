@@ -1,6 +1,6 @@
 **Práctica 3. Balanceo de carga**
 =================================
-Indice
+Índice
 ------
 * [Objetivos](#objetivos)
 * [Entorno](#entorno)
