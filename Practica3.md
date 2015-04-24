@@ -1,5 +1,13 @@
 **Práctica 3. Balanceo de carga**
 =================================
+Indice
+------
+* [Objetivos](#objetivos)
+* [Entorno](#entorno)
+* [Servidor web nginx](#servidor-web-nginx)
+* [Balanceo de carga con HAProxy](#balanceo-de-carga-con-haproxy)
+* [Bibliografía](#bibliografía)
+
 
 Objetivos
 ---------
