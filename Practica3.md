@@ -37,7 +37,7 @@ IP: 172.16.97.129
 
 
 
-Servidor web ngninx
+Servidor web nginx
 -------------------
 ###Instalar nginx en Ubuntu Server 12.04###
 Realizaremos la instalación utilizando el sistema gestor de paquetes apt.
