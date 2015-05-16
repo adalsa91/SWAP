@@ -210,7 +210,7 @@ Para configurar HAProxy debemos modificar el fichero **/etc/haproxy/haproxy.cfg*
 En primer lugar configuramos los parámetros de las sección **global**.
 
 La primera directiva que implementaremos sera **daemon** que hace el proceso se ejecute como un daemon.  
-Para asegurar un mínimo rendimiento estableceremos un mínimo número máximo de conexiones simultaneas mediante las siguiente directiva:
+Para asegurar un mínimo rendimiento estableceremos un número máximo de conexiones simultaneas mediante las siguiente directiva:
 
     maxconn 256
 
