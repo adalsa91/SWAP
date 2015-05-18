@@ -1,0 +1,4 @@
+Sistema,Availability,Std Dev (Availability),Failed transaction (#),Std Dev (Failed transaction),Response time (secs),Std Dev (Response time),Transaction per second,Std Dev (Transaction per second),Transactions (hits),Std Dev - Transactions
+Servidor Apache,98.986,0.46284338603895,12.2,5.418486873657626,12.639,0.4102547988750406,20.114,0.6721190370760224,1195.1,40.485676479466164
+nginx,100,0,0,0,11.259,0.3802223033963157,24.001000000000005,0.7660084855926863,1430.4,42.884029661401925
+HAProxy,100,0,0,0,11.369,0.36286223281019475,23.602,1.1249871110372776,1406.6,68.55246166258364
