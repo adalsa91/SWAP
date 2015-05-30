@@ -222,6 +222,7 @@ Una vez configurado todo volvemos al servidor maestro y desbloqueamos las tablas
 
     UNLOCK TABLES;
 
+###Comprobación y prueba del sistema de replicación###
 Para comprobar que todo se ha configurado correctamente y que el servicio de replica esta funcionando podemos ejecutar el comando:
 
     SHOW SLAVE STATUS\G;
