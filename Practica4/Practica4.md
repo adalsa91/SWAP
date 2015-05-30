@@ -47,6 +47,7 @@ IP: 172.16.97.130
 Hostname: ubuntu2  
 OS: Ubuntu 12.04.5  
 IP: 172.16.97.129  
+
 **Cliente**  
 Hostname: ubuntu2  
 OS: Ubuntu 12.04.5  

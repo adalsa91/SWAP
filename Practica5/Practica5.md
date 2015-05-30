@@ -1,14 +1,30 @@
 Práctica 5. Replicación de bases de datos MySQL
 ================================================
 
-Objetivos de la práctica
-------------------------
+Objetivos
+---------
 En esta práctica se pretende aportar un grado más de fiabilidad a nuestro sistema ante posibles interrupciones de servicio permanentes del servidor maestro, para ello dispondremos de un servidor de backup con MySQL actuando como esclavo de replicación, de esta forma aumentaremos la fiabilidad del sistema sin que se vea afectado el rendimiento del sistema en producción y sin consumir demasiado ancho de banda.
 
 Los objetivos concretos de esta práctica son:  
 * Copiar archivos de copia de seguridad mediante ssh.  
 * Clonar manualmente BD entre máquinas.  
 * Configurar la estructura maestro-esclavo entre dos máquinas para realizar el clonad automático de la información.
+
+Entorno
+-------
+
+Se ha utilizado el monitor de máquina virtual VMware Workstation 11 para crear las máquinas utilizadas para la práctica:
+
+**Backend1 - Servidor LAMP**  
+Hostname: ubuntu1  
+OS: Ubuntu 12.04.5  
+IP: 172.16.97.130  
+
+**Backend2 - Servidor LAMP**  
+Hostname: ubuntu2  
+OS: Ubuntu 12.04.5  
+IP: 172.16.97.129  
+
 
 Crear un tar con ficheros locales y copiarlos en un equipo remoto
 -----------------------------------------------------------------
