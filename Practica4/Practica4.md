@@ -52,7 +52,7 @@ Hostname: ubuntu2
 OS: Ubuntu 12.04.5  
 IP: 172.16.97.131  
 
-Todas las máquinas emulan un peocesador de doble núcleo y utilizan 512MB de RAM cada una.
+Todas las máquinas emulan un procesador de doble núcleo y utilizan 512MB de RAM cada una.
 
 El script PHP que ejecutaran los servidores del backend en respuesta a las peticiones será el siguiente:
 
