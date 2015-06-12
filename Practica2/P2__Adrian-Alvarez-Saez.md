@@ -1,6 +1,15 @@
 Práctica 2. Clonar la información de un sitio web
 =================================================
+Índice
+------
+* [Objetivos](#objetivos)
+* [Entorno](#entorno)
+* [Crear un tar con ficheros locales en un equipo remoto](#crear-un-tar-con-ficheros-locales-en-un-equipo-remoto)
+* [Instalar la herramienta rsync](#instalar-la-herramienta-rsync)
+* [Acceso sin contraseña para ssh](#acceso-sin-contraseña-para-ssh)
+* [Programar tareas con crontab](#programar-tareas-con-crontab)
 
+-----------------------------------------------------------
 Objetivos
 ---------
 En esta práctica se pretende probar distintos métodos para clonar la información de un sitio web entre los servidores y finalmente automatizar esta tarea mediante el uso de la herramienta ++cron++.
