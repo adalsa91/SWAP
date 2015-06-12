@@ -1,6 +1,21 @@
 Práctica 5. Replicación de bases de datos MySQL
 ================================================
 
+Índice
+------
+* [Objetivos](#objetivos)
+* [Entorno](#entorno)
+* [Crear un tar con ficheros locales y copiarlos en un equipo remoto](#crear-un-tar-con-ficheros-locales-y-copiarlos-en-un-equipo-remoto)
+* [Crear una BD e insertar datos](#crear-una-bd-e-insertar-datos)
+* [Replicar una BD MySQL con mysqldump](#replicar-una-bd-mysql-con-mysqldump)
+* [Replicación de BD mediante una configuración maestro-esclavo](#replicación-de-bd-mediante-una-configuración-maestro-esclavo)
+    * [Configuración del servidor maestro](#configuración-del-servidor-maestro)
+    * [Configuración del servidor esclavo](#configuración-del-servidor-esclavo)
+    * [Comprobación y prueba del sistema de replicación](#comprobación-y-prueba-del-sistema-de-replicación)
+
+
+-------------------------------------------------------------------------------
+
 Objetivos
 ---------
 En esta práctica se pretende aportar un grado más de fiabilidad a nuestro sistema ante posibles interrupciones de servicio permanentes del servidor maestro, para ello dispondremos de un servidor de backup con MySQL actuando como esclavo de replicación, de esta forma aumentaremos la fiabilidad del sistema sin que se vea afectado el rendimiento del sistema en producción y sin consumir demasiado ancho de banda.
@@ -242,3 +257,6 @@ Insertamos nuevas tuplas en el servidor maestro.
 Comprobamos la replicación de datos en el servidor esclavo.
 
 ![Comprobación de réplica](images/Practica_5_13.png "Comprobación de réplica")
+
+
+>Adrián Álvarez Sáez

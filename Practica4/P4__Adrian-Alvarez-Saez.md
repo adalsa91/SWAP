@@ -1,7 +1,7 @@
 **Práctica 4. Comprobar el rendimiento de servidores web**
 ======================================================
 
-Indice
+Índice
 ------
 * [Objetivos](#objetivos)
 * [Entorno](#entorno)
