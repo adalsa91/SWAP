@@ -87,7 +87,7 @@ Como se puede observar en la imagen anterior se puede seguir accediendo a los da
 
 Por último volveremos a agregar el disco duro eliminado con la opción **add**.
 
-![Añadir disco](images/Practica6_9.png "Añadir disco")
+![Añadir disco](images/Practica6_10.png "Añadir disco")
 
 <br>
 >Adrián Álvarez Sáez
