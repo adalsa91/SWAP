@@ -5,8 +5,8 @@ Práctica 6. Discos en RAID
 ------
 * [Objetivos](#objetivos)
 * [Entorno](#entorno)
-* [Configuración del RAID por software](#configuracion-del-RAID-por-software)
-* [Simulación de fallo](#simulacion-de-fallo)
+* [Configuración del RAID por software](#configuración-del-raid-por-software)
+* [Simulación de fallo](#simulación-de-fallo)
 
 
 -------------------------------------------------------------------------------
